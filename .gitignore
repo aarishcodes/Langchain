@@ -1,0 +1,7 @@
+/.env
+/chatmodel.py
+/gemini.py
+/gemini_learn.py
+/gemini_lesson_2.py
+/requirements.txt
+/test.py

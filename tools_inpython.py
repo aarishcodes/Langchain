@@ -1,5 +1,9 @@
-from langchain_community.tools import tool
+from langchain_community.tools import tool, DuckDuckGoSearchRun
 
+search_tool=DuckDuckGoSearchRun()
+duck_res = search_tool.invoke('Zayn Malik')
+
+print(duck_res)
 
 @tool
 def multiply(a: int, b: int) -> int:
